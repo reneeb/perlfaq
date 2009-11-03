@@ -170,8 +170,8 @@ will compile and run Perl 6 bytecode.
 At The Second O'Reilly Open Source Software Convention, Larry Wall
 announced Perl 6 development would begin in earnest. Perl 6 was an oft
 used term for Chip Salzenberg's project to rewrite Perl in C++ named
-Topaz. However, Topaz provided valuable insights to the next version
-of Perl and its implementation, but was ultimately abandoned.
+Topaz. However, while Topaz provided valuable insights to the next version
+of Perl and its implementation, it was ultimately abandoned.
 
 If you want to learn more about Perl 6, or have a desire to help in
 the crusade to make Perl a better place then peruse the Perl 6 developers
@@ -228,7 +228,8 @@ discussed in Part 2.
 
 Favorably in some areas, unfavorably in others.  Precisely which areas
 are good and bad is often a personal choice, so asking this question
-on Usenet runs a strong risk of starting an unproductive Holy War.
+on the various types of Internet forums runs a strong risk of starting an
+unproductive Holy War.
 
 Probably the best thing to do is try to write equivalent code to do a
 set of tasks.  These languages have their own newsgroups in which you
@@ -258,7 +259,7 @@ That said, there will always be small, focused, special-purpose
 languages dedicated to a specific problem domain that are simply more
 convenient for certain kinds of problems.  Perl tries to be all things
 to all people, but nothing special to anyone.  Examples of specialized
-languages that come to mind include prolog and matlab.
+languages that come to mind include Prolog and Matlab.
 
 =head2 When shouldn't I program in Perl?
 
@@ -326,6 +327,20 @@ they have begun to take on strange and often pejorative meanings,
 like "non serious" or "not real programming".  Consequently, some Perl
 programmers prefer to avoid them altogether.
 
+For further discussion see:
+
+=over 4
+
+=item * Larry Wall's Talk "Programming is Hard, Let's Go Scripting" 
+
+http://www.perl.com/pub/a/2007/12/06/soto-11.html
+
+=item * Andy Lester's Stop saying "script"
+
+http://xoa.petdance.com/Stop_saying_%22script%22
+
+=back
+
 =head2 What is a JAPH?
 
 (contributed by brian d foy)
@@ -375,8 +390,8 @@ choice and how Perl might satisfy that requirement.
 
 You don't have to worry about finding or paying for Perl; it's freely
 available and several popular operating systems come with Perl. Community
-support in places such as Perlmonks ( http://www.perlmonks.com )
-and the various Perl mailing lists ( http://lists.perl.org ) means that
+support in places such as Perlmonks ( http://www.perlmonks.com/ )
+and the various Perl mailing lists ( http://lists.perl.org/ ) means that
 you can usually get quick answers to your problems.
 
 Finally, keep in mind that Perl might not be the right tool for every
