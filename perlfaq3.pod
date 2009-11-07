@@ -368,7 +368,8 @@ anything. In any emacs the cperl-mode (M-x cperl-mode) gives you
 perhaps the best available Perl editing mode in any editor.
 
 If you are using Windows, you can use any editor that lets you work
-with plain text, such as NotePad or WordPad.  Word processors, such as
+with plain text, such as NotePad or WordPad. Word processors, such as
 Microsoft Word or WordPerfect, typically do not work since they insert
 all sorts of behind-the-scenes information, although some allow you to
-save files as "Text Only". You can also download te
+save files as "Text Only". You can also download Notepad++ which is a
+free source code editor - L<http://notepad-plus.sourceforge.net/>.
