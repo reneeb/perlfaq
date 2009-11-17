@@ -40,11 +40,6 @@ evaluated.  You can also examine the symbol table, get stack
 backtraces, check variable values, set breakpoints, and other
 operations typically found in symbolic debuggers.
 
-For an enhanced Perl REPL ("Read-Eval-Print Loop") see the Devel-REPL
-distribution on CPAN:
-
-http://search.cpan.org/dist/Devel-REPL/
-
 =head2 Is there a Perl shell?
 
 The psh (Perl sh) is currently at version 1.8. The Perl Shell is a shell
@@ -65,13 +60,11 @@ which aren't part of the Perl language as shell commands.  perlsh from
 the source distribution is simplistic and uninteresting, but may still
 be what you want.
 
-=head2 How do I find the modules of a particular author?
-
-From the command line, you can use the C<cpan> command's C<-L> switch:
-
-	$ cpan -L AUTHOR_ID
-
 =head2 How do I find which modules are installed on my system?
+
+From the command line, you can use the C<cpan> command's C<-l> switch:
+
+	$ cpan -l
 
 You can also use C<cpan>'s C<-a> switch to create an autobundle file
 that C<CPAN.pm> understands and can use to re-install every module:
@@ -377,9 +370,4 @@ If you are using Windows, you can use any editor that lets you work
 with plain text, such as NotePad or WordPad. Word processors, such as
 Microsoft Word or WordPerfect, typically do not work since they insert
 all sorts of behind-the-scenes information, although some allow you to
-<<<<<<< HEAD
-save files as "Text Only". You can also download Notepad++ which is a
-free source code editor - L<http://notepad-plus.sourceforge.net/>.
-=======
 save files as "Text Only".
->>>>>>> 44ca10db051c999a204997266dde73da4e2ef904
